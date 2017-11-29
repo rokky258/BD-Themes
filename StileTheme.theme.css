@@ -1,0 +1,296 @@
+//META{"name":"Stile_Theme","description":"A Theme for Kaho","author":"aSilkyLegging","version":"Ep. 1"}*//
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+.app { background-image: url(https://i.ytimg.com/vi/SV7EKA8jnAs/maxresdefault.jpg) !important; background-size: cover !important; }
+
+#app-mount,
+.app .layers .layer,
+.app .layers,
+.typing,
+.content,
+.flex-spacer,
+.container-RYiLUQ,
+.messages-wrapper,
+.popout-menu, /* Server Menu (Popout) */
+.popout-menu-item, /* Server Menu (Popout item) */
+#friends, /* Friends Section */
+.container-2OU7Cz,
+#rtc-connection,
+.ui-standard-sidebar-view {
+	background-color: transparent !important;
+}
+
+.titleBar-3_fDwJ { margin-top: 0px; padding-top: 4px; }
+
+.messages-wrapper,
+.friends-table,
+.messages-wrapper,
+#friends .friends-header,
+.titleBar-3_fDwJ,
+.content-region /* Settings - Right Side */ {
+	background-color:  rgba(0,0,0,0.65) !important;
+}
+
+.channel-members,
+.channels-3g2vYe /* Direct Messages Side Bar */ {
+	background-color: rgba(0,0,0,0.63) !important;
+}
+
+.guilds-wrapper /* Guilds (Left SideBar) */,
+.title-qAcLxz,
+.headerBar-cxbhPD, /* Friends Section Header */
+.sidebar-region, /* Settings - Left Side */
+.chat form {
+	background-color: rgba(0,0,0,0.60) !important;
+}
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://i.imgur.com/G3FgyZ4.png);
+    background-position: 30% 70%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+}
+.chat form { /* Chat Box */
+	margin: 0px !important;
+	padding-left: 20px;
+	padding-right: 20px;
+	/* height: 106px; */
+	padding: 6.5px 20px;
+	display: flex !important;
+	flex-shrink: 0 !important;
+	margin: 0 20px;
+	position: relative;
+}
+
+.channel-members h2 {
+		width: 50%;
+		color: #FFF !important;
+		background-color: #7f4469;
+		text-align: center;
+		border-radius: 4px;
+		border-bottom:0px solid #000;
+		border-top:0px solid #000;
+		border-left: 15px;
+		border-right: 15px;
+		padding-top: 2.5px;
+	  padding-bottom: 2.5px;
+		margin: 29px auto 9px;
+}
+
+.channel-members .member:hover{
+    background: rgba(238, 36, 36, 0.30) !important;
+}
+
+
+.popout-menu .popout-menu-item.leave {
+	background: rgba(220,0,0,0.75) !important;
+	color: #fff !important;
+}
+
+.popout-menu .popout-menu-item {
+	background-color: rgba(0,0,0,0.75) !important;
+	color: #b9bbbe !important;
+}
+
+.popout-menu .popout-menu-separator {
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #7f4469;
+}
+
+#friends .friends-table {
+	margin-top: 0px;
+	padding-top: 8px;
+}
+
+*::-webkit-scrollbar-track-piece {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #7f4469 !important;
+	border-color: transparent !important;
+}
+
+.itemDefaultSelected-1UAWLe,
+.itemBrandSelected-3LxxzT,
+#bd-settings-sidebar .ui-tab-bar-item.selected,
+.buttonBrandFilled-3Mv0Ra,
+.themeDefault-3M0dJU.valueChecked-3Bzkbm,
+.barFill-18ABna,
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
+.bd-pfbtn,
+.ui-standard-sidebar-view .bda-slist .bda-right button {
+	background-color: #7f4469;
+	color: #FFF;
+}
+
+.buttonBrandFilled-3Mv0Ra:hover {
+	background: rgba(238, 36, 36, 0.30) !important;
+}
+
+.itemBrand-mC9YR4 {
+	color: #7f4469;
+}
+
+.itemDanger-3m3dwx {
+	color: #FFF;
+	background-color: rgb(240, 71, 71);
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span,
+.themeClear-1NqU69.valueChecked-3Bzkbm,
+.tab-bar .tab-bar-item.tab-bar-item-primary,
+.tab-bar .tab-bar-item.selected,
+.chat .new-messages-bar {
+	background-color: #7f4469 !important;
+	border-color: #7f4469;
+  color: #FFF !important;
+}
+
+.mention { color: #7f4469 }
+.mention:hover { color: #FFF; background: rgba(238, 36, 36, 0.30) !important; }
+.sidebar-region .sidebar { padding-bottom: 0px !important; }
+
+.popout-menu .popout-menu-separator {
+		border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #7f4469;
+}
+
+.popout-menu .popout-menu-item:hover {
+	background: rgba(238, 36, 36, 0.30) !important;
+	color: #fff !important;
+}
+
+body {
+	font-family: 'Neucha', cursive;
+  -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-size-adjust: 100%;
+}
+.message-group h2 strong{														/* Username in comfy mode*/ 
+	 font-family: 'Overlock', cursive;
+    color: #CCC;
+    font-size: 18px;
+    font-weight: bold;
+}
+.message-group.compact .message .markup .user-name{                             /* Username next to message*/
+     font-family: 'Overlock', cursive;
+    color: #CCC;
+    font-size: 18px;
+    font-weight: bold;
+}
+.name-3gtcmp {
+    font-family: 'Overlock', cursive;
+}
+.message-group .comment .markup pre code, /* Multi Line Code Block */
+.message-group .comment .markup code.inline /* Inline Code Block */ {
+	background-color: rgba(50,50,50,0.30) !important;
+}
+
+.message-group .comment .markup pre code /* Multi Line Code Block */ {
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #7f4469 !important;
+  padding: 0 !important;
+}
+
+.item-2zi_5J[style*="background-color: rgb(114, 137, 218);"] { /* Radio Buttons */
+	background-color: #7f4469 !important;
+	border-color: #7f4469 !important;
+}
+
+.checkbox-1QwaS4[style*="border-color: rgb(114, 137, 218);"] { /* Check Box in The Radio Buttons */
+	border-color: #7f4469 !important;
+}
+
+.checkbox-1QwaS4[style*="border-color: rgb(114, 137, 218);"] polyline { /* Tick in the Check Box */
+	stroke: #7f4469 !important;
+}
+:root {
+  --Popout-Main-Colour: white;
+  --Popout-Background: url();
+  --Popout-Text-Shadow-Colour:rgba(0,0,0, .45);
+}
+
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom-color: white;
+}
+.tab-bar.TOP .tab-bar-item:hover {
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+}
+#user-profile-modal .guilds .avatar-large {
+    background-color: #7f4469;
+    color: #fff;
+}
+#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d, .quick-message,#user-profile-modal .header,.userPopout-4pfA0d {
+	background:transparent!important;
+	border: none!important;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+   background: #7f4469;
+   border: 3px solid rgba(255,255,255,0.5);
+}
+.headerNormal-1cioxU, .body-3rkFrF, .footer-2J5zqP {
+   background: rgba(132, 76, 114,0.6);
+}
+.bodyTitleIconForeground-itKW-t {
+    fill: white;
+}
+
+
+.scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-track-piece, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-track-piece{
+	display:none!important;
+}
+
+.avatar-profile{
+	border-radius: 0!important;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity{
+	color:var(--Popout-Main-Colour)!important;
+}
+
+.avatarHint-2i5XWK{
+	border-radius:0!important;
+	width: 100%!important;
+    height: 100%!important;
+	top: -1.5%!important;
+	left: -1.5%!important;
+}
+	
+#user-profile-modal,.userPopout-4pfA0d{
+	background:var(--Popout-Background)50% 50%/cover!important;
+	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
+}
+#user-profile-modal .actions .btn.add-friend {
+    background: #844c72;
+    border-radius: 50px;
+    border: 3px solid rgba(255,255,255,0.4);
+    padding-top: 1px;
+    height: 43px;
+}
+#user-profile-modal .actions .btn.add-friend:hover {
+    background: #844c72;
+    border-radius: 50px;
+    border: 3px outset rgba(255,255,255,0.4);
+    padding-top: 1px;
+    height: 43px;
+}
+#user-profile-modal .actions .btn.add-friend:active {
+    background: #844c72;
+    border-radius: 50px;
+    border: 3px inset rgba(255,255,255,0.4);
+    padding-top: 1px;
+    height: 43px;
+}
+
+.itemDefault-3NDwnY:hover, /* Settings Normal Button */
+.itemBrand-mC9YR4:hover, /* Discord Nitro Button*/
+.ui-tab-bar-item:hover /* Better Discord Settings Button */{
+	color: #FFF; background: rgba(238, 36, 36, 0.30) !important;
+}
+.app { background-image: url(https://orig00.deviantart.net/74f1/f/2017/308/b/7/kaho_blend_s_minimalist_by_tekmac-dbsr1z6.png) !important; background-size: cover !important; }
+
